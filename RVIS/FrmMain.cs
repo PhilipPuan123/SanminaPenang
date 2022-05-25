@@ -161,6 +161,7 @@ namespace RVIS
         {
             if (sysWaitFlag == false)
             {
+                //try
                 MAIN_START();
                 ModbusControl.SetControlBox_DO2(true);
             }
